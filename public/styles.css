@@ -1,0 +1,92 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #fafaf9;
+  color: #1c1917;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Bodoni Moda SC", serif;
+}
+h2,
+.name {
+  font-family: "Kedebideri", sans-serif;
+}
+.page {
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.page-header h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.subtitle {
+  color: #a8a29e;
+  font-size: 1.125rem;
+  margin-top: 0.75rem;
+  font-family: "Kedebideri", sans-serif;
+}
+
+.performers {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.performer-card {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid #f5f5f4;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.name {
+  margin: 0;
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.instagram-link {
+  color: #a8a29e;
+  transition: color 0.2s;
+}
+
+.instagram-link:hover {
+  color: #ec4899;
+}
+
+.bio {
+  font-size: 1rem;
+  line-height: 1.75;
+  color: #57534e;
+  margin: 0;
+}
+
+.footer {
+  margin-top: 4rem;
+  text-align: center;
+  color: #a8a29e;
+  font-size: 0.875rem;
+}
+
+.footer p {
+  margin: 0;
+}
