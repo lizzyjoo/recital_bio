@@ -1,7 +1,7 @@
 const express = require("express");
 const path = require("path");
 const app = express();
-import { Analytics } from "@vercel/analytics/next";
+import { inject } from "@vercel/analytics";
 
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
