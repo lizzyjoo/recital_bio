@@ -90,3 +90,29 @@ h2,
 .footer p {
   margin: 0;
 }
+
+@media (max-width: 480px) {
+  .page {
+    padding: 2rem 1rem;
+  }
+
+  .page-header {
+    margin-bottom: 2rem;
+  }
+
+  .page-header h1 {
+    font-size: 1.75rem;
+  }
+
+  .performer-card {
+    padding: 1.5rem;
+  }
+
+  .name {
+    font-size: 1.35rem;
+  }
+
+  .bio {
+    font-size: 0.95rem;
+  }
+}
